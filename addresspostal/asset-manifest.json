@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/addresspostal/static/js/main.2b76dfdf.chunk.js",
+    "main.js.map": "/addresspostal/static/js/main.2b76dfdf.chunk.js.map",
+    "runtime~main.js": "/addresspostal/static/js/runtime~main.d2ee3298.js",
+    "runtime~main.js.map": "/addresspostal/static/js/runtime~main.d2ee3298.js.map",
+    "static/js/2.989fec55.chunk.js": "/addresspostal/static/js/2.989fec55.chunk.js",
+    "static/js/2.989fec55.chunk.js.map": "/addresspostal/static/js/2.989fec55.chunk.js.map",
+    "index.html": "/addresspostal/index.html",
+    "precache-manifest.26163047b19094aa4d2fb65f9d92a1a2.js": "/addresspostal/precache-manifest.26163047b19094aa4d2fb65f9d92a1a2.js",
+    "service-worker.js": "/addresspostal/service-worker.js"
+  }
+}

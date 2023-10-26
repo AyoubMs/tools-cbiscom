@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="WORLDLINE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/downloads/WORLDLINE/NIXXIS_NEWCO.zip!/" />
+      <root url="jar://$PROJECT_DIR$/downloads/WORLDLINE/NIXXIS_WORLDLINE.zip!/" />
+      <root url="jar://$PROJECT_DIR$/downloads/WORLDLINE/vpn.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

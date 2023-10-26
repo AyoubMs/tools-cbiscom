@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nixxis_lebara">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/downloads/nixxis_lebara.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

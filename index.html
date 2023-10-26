@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>NCC | CBISCOM</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="icon" href="dist/img/logo.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="plugins/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- CSS Customized -->
+  <link rel="stylesheet" href="plugins/main_customized.css">
+  <style>
+    body {
+      font-size: 14px;
+    }
+
+    span.new-worldline {
+      position: absolute;
+      left: 90px;
+      top: -2px;
+      color: white;
+      background-color: red;
+      border-radius: 0px 0px 0px 10px;
+    }
+
+    span.date-worldline {
+      position: absolute;
+      color: #ff092b;
+      /* font-style: italic; */
+      font-size: 2rem;
+      right: 26px;
+      top: 0px;
+      background-color: transparent;
+      text-shadow: 2px 2px 2px #ff64ac;
+    }
+
+    .btn-new {
+      background-color: #ffd7d7;
+    }
+  </style>
+</head>
+
+<body class="hold-transition sidebar-mini">
+  <div class="wrapper" id="httptest">
+    <!-- Navbar modules-->
+    <nav class="main-header bg-white border-bottom">
+      <!-- Left navbar links -->
+      <a href="" class="brand-link">
+        <img src="dist/img/logo.png" alt="NEWCO Logo" style="max-height: 60px;">
+      </a>
+    </nav>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <div class="container-fluid">
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="#">NCC Casablanca</a></li>
+                <li class="breadcrumb-item active">Links</li>
+              </ol>
+            </div>
+          </div>
+        </div><!-- /.container-fluid -->
+      </section>
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title"> Liens généraux</h3>
+                  </div>
+                  <div class="card-body">
+                    <a class="btn btn-app" href="https://ncccasa.slack.com/" target="_blank">
+                      <i class="fa fa-slack"></i> Slack
+                    </a>
+                    <a class="btn btn-app" href="http://192.168.10.6:8000/" target="_blank">
+                      <i class="fa fa-home"></i> Intranet
+                    </a>
+                    <a class="btn btn-app" href="http://196.206.228.238:48000/" target="_blank">
+                      <i class="fa fa-home"></i> Intranet (Depuis CISCO)
+                    </a>
+                    <a class="btn btn-app" href="http://192.168.10.6:8020/" target="_blank">
+                      <i class="fa fa-home"></i> NEWCOPEDIA 
+                    </a>
+                    <a class="btn btn-app" href="https://webmail.cbiscom.com/" target="_blank">
+                      <i class="fa fa-envelope"></i> Web mail
+                    </a>
+                    <a class="btn btn-app" href="http://192.168.10.6:3000/" target="_blank">
+                      <i class="fa fa-home"></i> VMS
+                    </a>
+                    <a class="btn btn-app" href="http://tools.cbiscom.com/" target="_blank">
+                      <i class="fa fa-home"></i> Teams
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title"> Outils </h3>
+                  </div>
+                  <div class="card-body">
+                    <a class="btn btn-app" href="downloads/anyconnect-win-3.1.04072-web-deploy-k9.exe" download>
+                      <i class="fa fa-cloud-download"></i> AnyConnect
+                    </a>
+                    <a class="btn btn-app" href="downloads/anyconnect-win-4.10.00093-core-vpn-predeploy-k9.msi" download>
+                      <i class="fa fa-cloud-download"></i> AnyConnect V4
+                    </a>
+                    <a class="btn btn-app" href="downloads/SophosSetup.exe" download>
+                      <i class="fa fa-cloud-download"></i> Sophos Setup
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title"> TRANSATEL</h3>
+                  </div>
+                  <div class="card-body">
+                    <a class="btn btn-app" href="http://192.168.10.51/hermes_net_v4" target="_blank">
+                      <i class="fa fa-phone-square"></i> Hermes 2
+                    </a>
+                    <a class="btn btn-app" href="https://outlook.office.com/owa/" target="_blank">
+                      <i class="fa fa-envelope"></i> Webmail Transatel
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title"> SCARLET</h3>
+                  </div>
+                  <div class="card-body">
+                    <a class="btn btn-app" href="https://ra.prod.scarlet.be/" target="_blank">
+                      <i class="fa fa-tasks"></i> RA PROD
+                    </a>
+                    <a class="btn btn-app" href="http://192.168.10.247/request/Login.aspx" target="_blank">
+                      <i class="fa fa-tasks"></i> SALES
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title"> Worldline</h3>
+                  </div>
+                  <div class="card-body">
+                    <!-- <a class="btn btn-app" href="https://agtoa.worldline.com/" target="_blank"> -->
+                    <a class="btn btn-app" href="https://portal-pe.p4s.as8677.net/Citrix/p4sWeb/" target="_blank">
+                      <i class="fa fa-window-restore"></i> Citrix Worldline
+                    </a>
+                    <a class="btn btn-app" href="downloads/Skype-8.82.0.403.exe" download>
+                      <i class="fa fa-chrome"></i> Skype
+                    </a>
+                    <a class="btn btn-app" href="http://192.168.10.247/Leila_BO/" target="_blank">
+                      <i class="fa fa-chrome"></i> Leila
+                    </a>
+                    <a class="btn btn-app" href="http://192.168.10.247/TasksM/" target="_blank">
+                      <i class="fa fa-chrome"></i> Task Manager
+                    </a>
+                    <a class="btn btn-app" href="http://192.168.10.247/FEEDBACK/" target="_blank">
+                      <i class="fa fa-chrome"></i> 100% Feedback
+                    </a>
+                    <a class="btn btn-app" href="http://196.206.228.238:48001/TasksM/" target="_blank">
+                      <i class="fa fa-chrome"></i> TasksM (Depuis CISCO)
+                    </a>
+                    <a class="btn btn-app" href="http://196.206.228.238:48001/FEEDBACK" target="_blank">
+                      <i class="fa fa-chrome"></i> FEEDBACK (Depuis CISCO)
+                    </a>
+                    <a class="btn btn-app" href="http://196.206.228.238:48001/Leila_BO/" target="_blank">
+                      <i class="fa fa-chrome"></i> Leila_BO (Depuis CISCO)
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title"> TELEFONICA</h3>
+                  </div>
+                  <div class="card-body">
+                    <a class="btn btn-app" href="https://cct.telefonica.de/" target="_blank">
+                      <i class="fa fa-window-restore"></i> Citrix Telefonica
+                    </a>
+                    <a class="btn btn-app" href="https://css.telefonica.de/" target="_blank">
+                      <i class="fa fa-window-restore"></i> Citrix Telefonica 2
+                    </a>
+                    <a class="btn btn-app" href="downloads/TELEFONICA/CitrixWorkspaceApp.exe" download>
+                      <i class="fa fa-cloud-download"></i> Citrix Workspace
+                    </a>
+                    <a class="btn btn-app" href="http://192.168.10.251/hermes_net_v4" target="_blank">
+                      <i class="fa fa-phone-square"></i> Hermes 3
+                    </a>
+                    <a class="btn btn-app" href="downloads/TELEFONICA/jre-8u271-windows-x64.exe" download>
+                      <i class="fa fa-cloud-download"></i> JAVA JRE
+                    </a>
+                    <a class="btn btn-app" href="downloads/TELEFONICA/PulseSecureInstallerService.msi" download>
+                      <i class="fa fa-cloud-download"></i> Pulse Secure
+                    </a>
+                    <a class="btn btn-app" href="downloads/EIE11_EN-US_MCM_WIN764.EXE" download>
+                      <i class="fa fa-cloud-download"></i> Internet Explorer 11
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title"> UNIT-T</h3>
+                  </div>
+                  <div class="card-body">
+
+                    <a class="btn btn-app" href="https://comm.unit-t.eu/" target="_blank">
+                      <i class="fa fa-tasks"></i> Comm.unit-t
+                    </a>
+                    <a class="btn btn-app" href="https://rds.unit-t.eu/RDWeb" target="_blank">
+                      <i class="fa fa-tasks"></i> RDS
+                    </a>
+                    <a class="btn btn-app" href="https://sslvpn.unit-t.eu:4431/" target="_blank">
+                      <i class="fa fa-tasks"></i> SSLVPN
+                    </a>
+                    <a class="btn btn-app" href="https://webclient.jfs.be/" target="_blank">
+                      <i class="fa fa-tasks"></i> WebClient.JFS
+                    </a>
+                    <a class="btn btn-app" href="https://webclient.unit-t.eu/" target="_blank">
+                      <i class="fa fa-tasks"></i> WebClient.UNIT-T
+                    </a>
+                    <a class="btn btn-app" href="https://aircall.io/download/" target="_blank" download>
+                      <i class="fa fa-chrome"></i> FREE2MOVE
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title"> BOFROST</h3>
+                  </div>
+                  <div class="card-body">
+                    <a class="btn btn-app" href="downloads/BOFROST/CitrixWorkspaceApp_BOFROST.exe" download>
+                      <i class="fa fa-cloud-download"></i> Citrix Workspace
+                    </a>
+                    <a class="btn btn-app" href="https://citrix.bofrost.de/vpn/index.html" download>
+                      <i class="fa fa-cloud-download"></i> CITRIX Bofrost
+                    </a>
+                    <a class="btn btn-app" href="downloads/BOFROST/SafeNet MobilePASS.msi"
+                      download>
+                      <i class="fa fa-cloud-download"></i> MobilePASS ( TOKEN )
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="content-header">
+        <div class="container-fluid">
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="#">NCC Casablanca</a></li>
+                <li class="breadcrumb-item active">Tools</li>
+              </ol>
+            </div>
+          </div>
+        </div><!-- /.container-fluid -->
+      </section>
+      <section class="content">
+        <div class="container-fluid">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-2">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">LEBARA</h3>
+                  </div>
+                  <div class="card-body">
+
+                    <a class="btn btn-app"
+                      href="https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi"
+                      target="_blank">
+                      <i class="fa fa-tasks"></i> Amazon WorkSpaces
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+              <div class="col-md-10">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title"> Outils Worldline</h3>
+                  </div>
+                  <div class="card-body">
+                    <a class="btn btn-app" href="downloads/WORLDLINE/Chrome.exe" download>
+                      <i class="fa fa-cloud-download"></i> Google chrome
+                    </a>
+                    <a class="btn btn-app" href="downloads/WORLDLINE/CitrixReceiver.exe" download>
+                      <i class="fa fa-cloud-download"></i> Citrix
+                    </a>
+                    <a class="btn btn-app" href="downloads/WORLDLINE/CitrixWorkspaceApp.exe" download>
+                      <i class="fa fa-cloud-download"></i> Citrix v.20.9.0.3
+                    </a>
+                    <a class="btn btn-app" href="downloads/WORLDLINE/MicroSIP.exe" download>
+                      <i class="fa fa-cloud-download"></i> MicroSIP
+                    </a>
+                    <a class="btn btn-app" href="downloads/WORLDLINE/NIXXIS_NEWCO.zip" download>
+                      <i class="fa fa-cloud-download"></i> Nixxis NEWCO
+                    </a>
+                    <a class="btn btn-app" href="downloads/WORLDLINE/New_Nixxis_Worldline.exe" download>
+                      <!-- <span class='new-worldline'>New</span> -->
+                      <!-- <span class='date-worldline'>11 Avr</span> -->
+                      <i class="fa fa-cloud-download"></i>
+                      <span class='title-worldline'>Nixxis Worldline</span>
+                    </a>
+                    <a class="btn btn-app" href="downloads/WORLDLINE/vpn.zip" download>
+                      <i class="fa fa-cloud-download"></i> VPN + Config file
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-7">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title"> Outils SCARLET</h3>
+                  </div>
+                  <div class="card-body">
+                    <a class="btn btn-app" href="downloads/SCARLET/altitude.exe" download>
+                      <i class="fa fa-cloud-download"></i> Altitude
+                    </a>
+                    <a class="btn btn-app" href="downloads/SCARLET/vpn_SCARLET.zip" download>
+                      <i class="fa fa-cloud-download"></i> VPN + Config file
+                    </a>
+                    <a class="btn btn-app" href="downloads/AnyDesk.exe" download>
+                      <i class="fa fa-cloud-download"></i> AnyDesk
+                    </a>
+                    <a class="btn btn-app" href="downloads/GlobalVPNClient.exe" download>
+                      <i class="fa fa-cloud-download"></i> GlobalVPNClient
+                    </a>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer navbar fixed-bottom">
+    <strong>Copyright &copy; 2020 <a href="http://www.newcocoms.com/" target="_blank">NEWCO COMMUNICATIONS</a> | <a
+        href="http://www.cbiscom.com/" target="_blank">CBISCOM</a></strong>
+    All rights reserved.
+  </footer>
+  </div>
+  <!-- ./wrapper -->
+
+
+  <!-- jQuery -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <!-- jQuery UI 1.11.4 -->
+  <script src="plugins/jquery/jquery-ui.min.js"></script>
+  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+
+
+  <!-- Bootstrap 4 -->
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <!-- Bootstrap WYSIHTML5 -->
+  <script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+  <!-- Slimscroll -->
+  <script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+  <!-- FastClick -->
+  <script src="plugins/fastclick/fastclick.js"></script>
+
+  <!-- jQuery -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+
+  <!-- AdminLTE App -->
+  <script src="dist/js/adminlte.js"></script>
+
+  <!-- AdminLTE for demo purposes -->
+  <script src="dist/js/demo.js"></script>
+
+</body>
+
+</html>
